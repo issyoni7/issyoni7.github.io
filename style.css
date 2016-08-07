@@ -1,0 +1,305 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #fffafa;
+}
+.center {
+	width:1022px;
+	margin:0 auto;
+}
+.logo {
+	width:366px;
+	height:117px;
+	background-image: url(http://imgur.com/0vgsT6Z.png);
+	float:left;
+	margin-top: 8px;
+}
+header {
+	background: #fff url(http://imgur.com/ifwUwLF.png) no-repeat;
+	height: 140px;
+	width: 100%;
+	background-size: contain;
+	background-position-y: 117px;
+	position: fixed;
+	z-index: 999;
+}
+header .center > div {
+	float:left;
+}
+header .headerLine {
+	height: 12px;
+	width: 100%;
+	background: url(http://imgur.com/ifwUwLF.png) no-repeat 0 75%;
+	display: block;
+	background-size: cover;
+	position: relative;
+	top: 140px;
+}
+header .menu ul {
+	margin:70px;
+}
+header .menu ul > li{
+	float:left;
+	padding:0 15px 12px;
+	background: url(http://imgur.com/DTVHaBf.png) no-repeat;
+	background-size: contain;
+	background-position: -100px 17px;
+	/*transition: background-position .4s;*/
+	color:#8f8e8f;
+	cursor:pointer;
+	letter-spacing: 2px;
+}
+header .menu ul > li:hover{
+	background-position: 0 17px;
+	color:#a24945;
+
+}
+header .fb_link {
+	margin-top: 55px;
+	/*padding-top: 15px;*/
+	font-size: 12px;
+	line-height:43px;
+	height:43px;
+	padding-left: 51px;
+	background: url(http://imgur.com/HdB3DSE.png) no-repeat;
+	color:#ebeceb;
+	cursor:pointer;
+}
+header .fb_link:hover {
+	opacity:.5;
+}
+main {
+	padding: 140px 0 0 0;
+}
+main .slider {
+	width:100%;
+	padding-bottom: 33.5%;
+	background: url(http://imgur.com/f9DhmXu.png) no-repeat;
+	background-size: contain;
+}
+main .activity {
+	padding:80px 0 140px;
+}
+main .activity h1{
+	text-align:center;
+	letter-spacing: 2px;
+	color:#8f8e8f;
+	padding-bottom: 40px;
+	background: url(http://imgur.com/ifwUwLF.png) no-repeat;
+	background-position: center 23px;
+}
+main .activity ul {
+	width:60%;
+	margin: 20px auto;
+}
+main .activity ul li {
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+main .activity ul li > span , main .activity ul li > p { 
+	float:left;
+	color:#8f8e8f;
+	/*display:block;*/
+}
+main .activity ul li > span {
+	width:15%;
+}
+main .activity ul li > p {
+	width:85%;
+}
+main .activity .more {
+	text-align: right;
+}
+main .activity .photos ol li {
+	float:left;
+	width:20%;
+	padding-bottom: 20%;
+	margin:40px 2.5%;
+}
+main .activity .photos ol li:nth-child(1) {
+	background: url(http://imgur.com/DHSLtiD.png) no-repeat;
+	background-size:contain;
+}
+main .activity .photos ol li:nth-child(2) {
+	background: url(http://imgur.com/kuJzp44.png) no-repeat;
+	background-size:contain;
+}
+main .activity .photos ol li:nth-child(3) {
+	background: url(http://imgur.com/CiUod3E.png) no-repeat;
+	background-size:contain;
+}
+main .activity .photos ol li:nth-child(4) {
+	background: url(http://imgur.com/7jkXwdY.png) no-repeat;
+	background-size:contain;
+}
+main .product {
+	background-color:#8f8e8f;
+	padding:240px 0 140px;
+}
+main .product h1{
+	text-align:center;
+	letter-spacing: 2px;
+	color:#a24945;
+	padding-bottom: 40px;
+	background: url(http://imgur.com/z425JQS.png) no-repeat;
+	background-position: center 23px;
+}
+main .product ul {
+	margin:80px 0;
+	display:inline-block;
+}
+main .product ul li{
+	width:23%;
+	padding: 2%;
+	height:300px;
+	background-color: #fffafa;
+	margin:1.5% 3%;
+	float: left;
+}
+main .product ul li div{
+	width:100%;
+	padding-bottom: 55%;
+	background-color:#8f8e8f;
+}
+main .product ul li h2{
+	text-align: center;
+	letter-spacing: 2px;
+	margin:24px auto 18px;
+}
+main .product ul li p {
+	font-size:12px;
+	letter-spacing: 2px;
+	color:#8f8e8f;
+	width:206px;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 auto;
+}
+main .product ul li span{
+	padding:0 15px 12px;
+	background: url(http://imgur.com/DTVHaBf.png) no-repeat;
+	background-size: contain;
+	background-position: -100px 17px;
+	/*transition: background-position .4s;*/
+	color:#8f8e8f;
+	cursor:pointer;
+	letter-spacing: 2px;
+	 margin: 42px auto 0;
+    display: table;
+    /*width: 73px;*/
+}
+main .product ul li span:hover{
+	background-position: 0 17px;
+	color:#a24945;
+}
+main .about {
+
+}
+main .about div{
+	width:72%;
+	padding-bottom: 65%;
+	background: url(http://imgur.com/00LXpS9.png) no-repeat;
+	background-size:contain;
+}
+main .about article {
+	background-color: #fffafa;
+	width:25%;
+	padding:5% 3% 3%;
+	/*position:relative;
+	left:20px;*/
+	float:right;
+	margin: 25% -6% 0 0;
+	letter-spacing: 2px;
+	color:#8f8e8f;
+	text-align: center;
+	line-height: 20px;
+}
+main .about article p{
+	font-size: 12px;
+}
+main .about article span{
+	padding:0 15px 12px;
+	background: url(http://imgur.com/DTVHaBf.png) no-repeat;
+	background-size: contain;
+	background-position: -100px 17px;
+	/*transition: background-position .4s;*/
+	color:#8f8e8f;
+	cursor:pointer;
+	letter-spacing: 2px;
+	margin: 42px auto 0;
+    display: table;
+    font-size:auto;
+    /*width: 73px;*/
+}
+main .about article span:hover{
+	background-position: 0 17px;
+	color:#a24945;
+}
+main .contact iframe {
+	float:right;
+}
+main .contact article {
+	background-color: #fffafa;
+	width:25%;
+	padding:3% 5% 2%;
+	float:left;
+	margin-top:12%;
+	position:relative;
+	left:17%;
+}
+main .contact article label{
+	width:100%;
+	display:block;
+	padding:15px 0;
+}
+main .contact article label input, main .contact article textarea{
+	width:100%;
+	padding: 0 12px ;
+	font-size: 16px;
+	color:#8f8e8f;
+	border-color: #8f8e8f;
+	letter-spacing: 2px;
+}
+main .contact article label input {
+	line-height: 35px;
+}
+main .contact article textarea {
+	width:100%;
+	resize:none;
+	height:70px;
+	/*margin-left: .35px;*/
+	padding: 8px 12px 12px 12px;
+}
+main .contact article span{
+	padding:0 15px 12px;
+	background: url(http://imgur.com/DTVHaBf.png) no-repeat;
+	background-size: contain;
+	background-position: -100px 17px;
+	/*transition: background-position .4s;*/
+	color:#8f8e8f;
+	cursor:pointer;
+	letter-spacing: 2px;
+	margin: 30px auto 0;
+    display: table;
+    font-size:auto;
+    /*width: 73px;*/
+}
+main .contact article span:hover{
+	background-position: 0 17px;
+	color:#a24945;
+}
+main footer {
+	background-color:#8f8e8f;
+	display: inline-block;
+	width:100%;
+	margin-top:1px;
+	padding:10px 0 12px;
+}
+main footer p{
+	text-align: right;
+	color: #fffafa;
+	letter-spacing: 2px;
+}
