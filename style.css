@@ -318,6 +318,13 @@ main .contact article span:hover{
 }
 main .contact article p {
 	line-height: 37px;
+	text-align: center;
+}
+main .contact article p::after {
+	content:'┄';
+	color:#a24945;
+	display: block;
+	line-height: 28px;
 }
 main footer {
 	background-color:#8f8e8f;
