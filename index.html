@@ -140,8 +140,8 @@ $(document).ready(function(){
 		window.open('mailto:amazon1658@gmail.com');
 	});
 	
-	function slideing(){
-		$('.slider').animate({'background-position-y':'100%'},7000).animate({'background-position-x':'100%'},2000).animate({'background-position-y':'0%'},7000).animate({'background-position-x':'0%'},2000);;
+	function slidering(){
+		$('.slider').stop().animate({'background-position-y':'100%'},7000).animate({'background-position-x':'100%'},2000).animate({'background-position-y':'0%'},7000).animate({'background-position-x':'0%'},2000);;
 	}
 	setInterval(function(){slidering();},18000);
 });
