@@ -140,17 +140,8 @@ $(document).ready(function(){
 		window.open('mailto:amazon1658@gmail.com');
 	});
 	
-	function slideY(toy){
-		$('.slider').animate({'background-position-y':toy + '%'},7000);
-	}
-	function slideX(tox){
-		$('.slider').animate({'background-position-x':tox + '%'},2000);
-	}
-	function slidering(){
-		slideY(100);
-		setTimeout(function(){slideX(100)},7000);
-		setTimeout(function(){slideY(0)},9000);
-		setTimeout(function(){slideX(0)},16000);
+	function slideing(){
+		$('.slider').animate({'background-position-y':'100%'},7000).animate({'background-position-x':'100%'},2000).animate({'background-position-y':'0%'},7000).animate({'background-position-x':'0%'},2000);;
 	}
 	setInterval(function(){slidering();},18000);
 });
