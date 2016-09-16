@@ -112,6 +112,11 @@ main .activity ul li > p {
 }
 main .activity .more {
 	text-align: right;
+	color:#8f8e8f;
+	cursor:pointer;
+}
+main .activity .more:hover {
+	color:#a24945;
 }
 main .activity .photos ol li {
 	float:left;
@@ -162,7 +167,26 @@ main .product ul li{
 main .product ul li div{
 	width:100%;
 	padding-bottom: 55%;
-	background-color:#8f8e8f;
+	background: url(http://i.imgur.com/6KFflWu.jpg) no-repeat;
+	background-size: 301%;
+}
+main .product ul li:nth-child(1) div{
+	background-position: top left;
+}
+main .product ul li:nth-child(2) div{
+	background-position: top center;
+}
+main .product ul li:nth-child(3) div{
+	background-position: top right;
+}
+main .product ul li:nth-child(4) div{
+	background-position: bottom left;
+}
+main .product ul li:nth-child(5) div{
+	background-position: bottom center;
+}
+main .product ul li:nth-child(6) div{
+	background-position: bottom right;
 }
 main .product ul li h2{
 	text-align: center;
@@ -177,6 +201,7 @@ main .product ul li p {
 	text-align: center;
 	line-height: 20px;
 	margin: 0 auto;
+	height:40px;
 }
 main .product ul li span{
 	padding:0 15px 12px;
@@ -290,6 +315,9 @@ main .contact article span{
 main .contact article span:hover{
 	background-position: 0 17px;
 	color:#a24945;
+}
+main .contact article p {
+	line-height: 37px;
 }
 main footer {
 	background-color:#8f8e8f;
